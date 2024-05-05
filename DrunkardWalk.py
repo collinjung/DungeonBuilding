@@ -3,6 +3,14 @@ import random
 import math
 from utils import printLevels
 
+"""
+Procedural Generation for 2D dungeon with Drunkard Walk algorithm.
+By Collin Jung, CS 247G Spring 2024
+
+Adapted from: "http://pcg.wikidot.com/pcg-algorithm:drunkard-walk"
+
+"""
+
 def genDungeon(level):
   maxRooms = int(random.randint(0, 3) + 7 + level * 3)
   dungeon = np.zeros((8, 8))
