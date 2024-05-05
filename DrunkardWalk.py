@@ -8,7 +8,6 @@ Procedural Generation for 2D dungeon with Drunkard Walk algorithm.
 By Collin Jung, CS 247G Spring 2024
 
 Adapted from: "http://pcg.wikidot.com/pcg-algorithm:drunkard-walk"
-
 """
 
 def genDungeon(level):
