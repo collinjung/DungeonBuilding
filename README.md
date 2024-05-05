@@ -30,7 +30,7 @@ Level: Each dungeon generation function takes in an integer level parameter. Thi
 
 # Toy example:
 
-Dungeon grid:
+Dungeon grid:  
 [[0, 2, 0],  
  [1, 1, 1],  
  [0, 3, 0]]
