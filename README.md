@@ -2,9 +2,9 @@
 
 # TODO
 
-(1) Convert these files to GDScript
-(2) Figure out how to view the room generations in Godot
-(3) Pick room dimensions. All of our rooms will be the same size, which should make things easier. Since our algorithm returns coordinates in a grid, we could just multiply these coordinates by a set amount based on room size. For example, if our rooms are 100 pixels by 200 pixels and we have rooms at cell (0, 0), (1, 0), and (0, 1), we would convert our coordinates to be (x * 100, y * 200). In this case, (0, 0), (100, 0) and (0, 200) would be the top-left corner of our room components.
+(1) Convert these files to GDScript  
+(2) Figure out how to view the room generations in Godot  
+(3) Pick room dimensions. All of our rooms will be the same size, which should make things easier. Since our algorithm returns coordinates in a grid, we could just multiply these coordinates by a set amount based on room size. For example, if our rooms are 100 pixels by 200 pixels and we have rooms at cell (0, 0), (1, 0), and (0, 1), we would convert our coordinates to be (x * 100, y * 200). In this case, (0, 0), (100, 0) and (0, 200) would be the top-left corner of our room components.  
 
 Useful resources:
 - https://www.youtube.com/watch?v=G2_SGhmdYFo Introduction into dungeon procgen in Godot. The algorithm/process they use is different but once our files are written in GDScript, it should be essentially the same
@@ -31,8 +31,8 @@ Level: Each dungeon generation function takes in an integer level parameter. Thi
 # Toy example:
 
 Dungeon grid:
-[[0, 2, 0],
- [1, 1, 1],
+[[0, 2, 0],  
+ [1, 1, 1],  
  [0, 3, 0]]
 
 In this dungeon, the start room would be at cell (0, 1) and the end room would be at cell (2, 1). The shape of the dungeon is a plus (+) shape. The middle cell (1, 1) has doors on all cardinal directions while the start room and end room each have only 1 door.
