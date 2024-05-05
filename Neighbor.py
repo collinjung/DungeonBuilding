@@ -5,9 +5,9 @@ from utils import genNeighbors, printLevels
 
 """
 Procedural Generation for 2D dungeon in the style of "The Binding of Isaac".
+By Collin Jung, CS 247G Spring 2024
 
 Adapted from: "https://www.boristhebrave.com/2020/09/12/dungeon-generation-in-binding-of-isaac/"
-
 """
 
 # Generate rooms based on rules
