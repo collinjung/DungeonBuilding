@@ -8,7 +8,7 @@
 
 Useful resources:
 - https://www.youtube.com/watch?v=G2_SGhmdYFo Introduction into dungeon procgen in Godot. The algorithm/process they use is different but once our files are written in GDScript, it should be essentially the same
-- https://www.youtube.com/watch?v=mwk_8Q-jz90 This is probably closer to what we are looking for.
+- https://www.youtube.com/watch?v=mwk_8Q-jz90 This is probably closer to what we are looking for, at least for visualizing our dungeon rooms before we actually draw them full size.
 
 
 
