@@ -15,7 +15,9 @@ Useful resources:
 # Files
 
 utils.py: This holds utility functions used in both algorithms. Mostly QOL functions like printing the dungeon generations in a pretty way and regenerating dungeons until a valid one comes up.
+
 Neighbor.py: Dungeon generation file based on neighbor-based algorithm
+
 DrunkardWalk.py: Dungeon generation file based on Drunkard Walk algorithm
 
 # Terminology
